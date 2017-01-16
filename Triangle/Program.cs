@@ -11,7 +11,7 @@ namespace Triangle
         static void Main(string[] args)
         {
             try
-            {/*
+            {
                 Console.WriteLine("please input first side length:");
                 double a = Convert.ToDouble(Console.ReadLine());
 
@@ -21,8 +21,8 @@ namespace Triangle
                 Console.WriteLine("please input third side lenght:");
                 double c = Convert.ToDouble(Console.ReadLine());
 
-                Triangle t = new Triangle(a, b, c);*/
-                Triangle t = new Triangle('p',3, 2);
+                Triangle t = new Triangle(a, b, c);
+                //Triangle t = new Triangle('p',3, 2);
                                
                 Console.WriteLine(t.ToString());
                 
