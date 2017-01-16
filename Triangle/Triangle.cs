@@ -1,5 +1,12 @@
 ﻿using System;
 
+/*
+ * Name: Triangle 
+version: ver1.0.0
+Date 2017/1/15
+Function: Input three sides of a triangle in double format, it will tell you whether it's a triangle or not, and what type of triangle
+*/
+
 namespace Triangle
 {
     public class Triangle
